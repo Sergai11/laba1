@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startNewActivity(View v) {
         Intent intent =  new Intent(this, MainActivity2.class);
-        intent.putExtra("text", "Перов");
+        intent.putExtra("text", "Апанасов");
         startActivity(intent);
     }
 }
